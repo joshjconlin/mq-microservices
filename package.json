@@ -1,6 +1,6 @@
 {
   "name": "mq-microservices",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Helpers for using serverless api's with rabbit mq",
   "main": "index.js",
   "scripts": {
