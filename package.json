@@ -4,7 +4,10 @@
   "description": "Helpers for using serverless api's with rabbit mq",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version-up:major": "node ./node_modules/node-version-up/index.js --major",
+    "version-up:minor": "node ./node_modules/node-version-up/index.js --minor",
+    "version-up:patch": "node ./node_modules/node-version-up/index.js --patch"
   },
   "keywords": [
     "rabbitmq",
@@ -15,7 +18,11 @@
   "license": "ISC",
   "dependencies": {
     "amqplib": "0.5.6",
+    "axios": "0.19.2",
     "serverless": "1.73.1",
     "serverless-offline": "6.4.0"
+  },
+  "devDependencies": {
+    "node-version-up": "1.1.0"
   }
 }
