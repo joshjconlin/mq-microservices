@@ -9,7 +9,8 @@
 ### Usage
 `node ./node_modules/mq-microservices/lib/CreateService --language {LANGUAGE}`
  
- Edit serverless.yml functions to add additional routes, and then add handler function to handler file
+ Edit serverless.yml functions to add additional routes, and then add handler function to handler file.
+ Don't forget to register the action in index.js
  
 ### Supported Language Options
 typescript,
