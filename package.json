@@ -19,8 +19,13 @@
   "dependencies": {
     "amqplib": "0.5.6",
     "axios": "0.19.2",
+    "js-yaml": "3.14.0",
     "serverless": "1.73.1",
-    "serverless-offline": "6.4.0"
+    "serverless-offline": "6.4.0",
+    "chalk": "4.1.0",
+    "readline-sync": "1.4.10",
+    "json-to-pretty-yaml": "1.2.2",
+    "yargs": "15.3.1"
   },
   "devDependencies": {
     "node-version-up": "1.1.0"
